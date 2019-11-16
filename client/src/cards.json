@@ -1,0 +1,754 @@
+
+
+[
+    {
+        "id": "starter",
+        "description": "Start up What shall we call you? What is the name of your village?",
+        "paths": [{
+            "targetid": "secret2",
+            "buttonText": ""
+            },
+            {
+                "targetid": "starter1",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "secret2",
+        "description": "*If you enter Boblin as a name, it cuts to a office meme and ends the game* *Easter Egg*"
+        
+    },
+    {
+        "id": "starter1",
+        "description": "You are a small goblin child, dreaming of a bigger world. What’s it like outside of ___? Are there different goblins? Humans? I want to know …",
+        "paths": [{
+            "targetid": "starter2",
+            "buttonText": ""
+            }
+           ]
+    },
+    {
+        "id": "starter2",
+        "description": "Time has gone by, and you are a curious youngster coming into age. You lay in the grass, outside of your home. Gazing in to the sky looking at the white fluffy clouds above you. It’s a so peaceful here you think, I could just stay here and be content. Do I want that though? The thought of leaving the village excite you. You think about the adventures you’ve read as a child and how you used to play by fighting invisible dragons, finding the hidden gems and saving the princess in the castle. Should I leave the village I’ve known all my life for a life unknown?",
+        "paths": [{
+            "targetid": "starter3",
+            "buttonText": ""
+            },
+            {
+                "targetid": "starter4",
+                "buttonText": ""
+            },
+            {
+                "targetid": "secret1",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "starter3",
+        "description": "I should sleep on it.  I don’t want to make any rash decisions. I’ll think about it tonight.",
+        "paths": [{
+            "targetid": "starter5",
+            "buttonText": ""
+            }
+            ]
+    },
+    {
+        "id": "starter4",
+        "description": "Decide that you want to see the outside world and what lies beyond the stony village of __.",
+        "paths": [{
+            "targetid": "starter5",
+            "buttonText": ""
+            }
+            ]
+    },
+    {
+        "id": "secret1",
+        "description": "I’d rather not and be lazy, just cause I can. *Easter Egg* Secret Ending"
+       
+    },
+    {
+        "id": "starter5",
+        "description": "You decide that night that you’re going to venture out, you prepare yourself packing some essentials and go to sleep thinking about the next morning. Your brain buzzes with excitement and dreams of adventure.",
+        "paths": [{
+            "targetid": "starter6",
+            "buttonText": ""
+            }
+        ]
+    },
+    {
+        "id": "starter6",
+        "description": "Waking up you set off through the village, passing by everything that was warm and familiar for the uncomfortable and the unknown. Your first time outside the village, you find a few paths. One points to the river, one towards the mountains and the last one to the forest. Which way do you go?",
+        "paths": [{
+            "targetid": "forest1",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river1",
+                "buttonText": ""
+            },
+            {
+                "targetid": "mountain1",
+                "buttonText": ""
+                }]
+    },
+    {
+        "id": "forest1",
+        "description": "Forest",
+        "paths": [{
+            "targetid": "forest2",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river1",
+        "description": "River",
+        "paths": [{
+            "targetid": "river2",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "mountain1",
+        "description": "Mountains",
+        "paths": [{
+            "targetid": "mountain2",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "mountain2",
+        "description": "You set off towards the mountains, you’ve heard that there a cavern there that hold a unsurmountable amount of treasure and gold. Maybe you can find it and bring it back to the village and live a lavish lifestyle of a king. The thought of this makes you smile with glee."
+        
+    },
+    {
+        "id": "forest2",
+        "description": "You set off towards the forest, you’ve heard many folktales about the monsters in the forest. “I’m sure they’re all just stories to scare children in to sleeping at night .”As you walk through taking in the fresh air, you feel as though you’re being watched … or perhaps being followed? Do I run? Do I call out and see if I get a response?",
+        "paths": [{
+            "targetid": "forest2_a",
+            "buttonText": ""
+            },
+            {
+                "targetid": "forest2_b",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest2_a",
+        "description": "Run!",
+        "paths": [{
+            "targetid": "forest3",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest2_b",
+        "description": "Call out … “I know you’re there, what do you want?”",
+        "paths": [{
+            "targetid": "forest2_c",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forst2_c",
+        "description": "You hear a crackling voice …”You …do …not … belong” The leaves start to crack closer and closer towards you. “Nonono, I can’t die here!” I need to run!",
+        "paths": [{
+            "targetid": "forest3",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest3",
+        "description": "You race through the forest as fast as your little legs will take you. Hopping over logs cracking through the twigs and leaves. You see out from the side of your eye a shadow. Following. Keeping pace, almost as though they were your shadow.",
+        "paths": [{
+            "targetid": "forest4",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest4",
+        "description": "You feel as though it’s closing in on you. All you see is a sea of trees that look endless in front of you. Maybe I can hide and wait for them to leave. You see a small opening under a log it looks like a burrow from an animal. I could also go up a tree, I climbed many trees when I was younger. Go under the log or up the tree?",
+        "paths": [{
+            "targetid": "forest4_b",
+            "buttonText": ""
+            },
+            {
+                "targetid": "forest5",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest4_b",
+        "description": "You decide to go up a tree, you find one that has a few footholds and skurry up as far as it will take you. You go out towards the branches hiding your body with the branches and try not to breathe as you feel the ‘shadow’ coming closer. You gaze down towards the clearing you were just at. A few shadowy figures descend upon where you just were. ‘Don’t breathe, don’t breathe.’ You close your eyes, wishing you were back home.",
+        "paths": [{
+            "targetid": "forest4_c",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest4_c",
+        "description": "The shadows suddenly stop moving and they hiss “We smell you.”",
+        "paths": [{
+            "targetid": "forest4_d",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest4_d",
+        "description": "They look up in to the tree that you’re in and you meet their face with yours. They climb slowly and methodically. You scramble to climb higher, the only place you can go. “Please don’t kill me!” You feel a shadowy hand grasp on to your ankle, “Aghhhhhhhhhh” you scream and try to shake the hand off. “Leave me alone!”",
+        "paths": [{
+            "targetid": "forest4_e",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forst4_e",
+        "description": "Your hand slips from the branch that you were holding on to. It’s face meets yours and you stare into the abyss of darkness where a face should be. It whispers “ You do not belong.”",
+        "paths": [{
+            "targetid": "forest4_f",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest4_f",
+        "description": "It mesmerizes you, you begin to have happy memories in your old village, running, dancing and eating delicious foods.The ‘face’ in front of you begins to open, like a set of jaws it unhinges and opens showing sharp teeth, covered in blood. The creature beings to salivate and you can feel the hot breath from the figure. It consumes your body and your soul. You don’t belong, You’re dead."
+        
+    },
+    {
+        "id": "forest5",
+        "description": "You decide to go under the log, crawling on your hands and knees you hope that the nest is empty and you’re not intruding.",
+        "paths": [{
+            "targetid": "forest5_a1",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_a1",
+        "description": "It seems a lot more roomy than it should be under the log. Your crawl and keep crawling and you think to yourself that this should have ended a long time ago. You reach the end of the burrow and you find that you can stand now. It’s so dark, even for your goblin eyes which are adept to low light vision.",
+        "paths": [{
+            "targetid": "forest5_c",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_c",
+        "description": "You reach your hands out in front of you and feel around, there’s a smooth handle protruding from the jagged walls of rock and moss. You fiddle with the handle, maybe a light switch? Could it be a trap? Pull the switch or try and leave.",
+        "paths": [{
+            "targetid": "forest5_b1",
+            "buttonText": ""
+            },
+            {
+                "targetid": "forest5_d",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest_b1",
+        "description": "Try and leave"
+        
+    },
+    {
+        "id": "forest5_d",
+        "description": "You pull the switch and decide whatever happens happens. A click … and what seems like a low whirring sound. The floor moves slowly descending down.",
+        "paths": [{
+            "targetid": "forest5_e",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_e",
+        "description": "Suddenly it stops and jostles the platform you’re on, putting you off balance and you roll backwards into the dirt. ‘Well that was terrible’ you think to yourself. As you dust yourself off you find that a pathway has opened up and it seems to be lit up. The walls are lined with torches and go down a mysterious hallway. I could still go back up or should I go down the hallway?",
+        "paths": [{
+            "targetid": "forest5_e1",
+            "buttonText": ""
+            },
+            {
+                "targetid": "forest5_f",
+                "buttonText": ""
+                }]
+    },
+    {
+        "id": "forest5_e1",
+        "description": "You decide to go try and go back up to the top. Maybe if you pull on the lever again it will take me back up. You go back to the wall and find the handle and pull on it. Nothing. You try again. Silence. “I guess I have no choice.”"
+        
+    },
+    {
+        "id": "forest5_f",
+        "description": "I’m looking for an adventure anyways, you set off down the hallway. You grab a torch from along the wall, holding it close as you traverse the corridor. It slowly gets wider until it stops at a bigger room. It’s lit up and there’s what seems like prison bars in the corner.",
+        "paths": [{
+            "targetid": "forest5_g",
+            "buttonText": ""
+            },
+            {
+                "targetid": "forest_e1",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_g",
+        "description": "You walk cautiously towards it and find a small body laying behind the bars. It seems to be of a woman, her back facing away from you. Her long silver hair masked with dirt and grime, her golden gown tattered and torn.",
+        "paths": [{
+            "targetid": "forest5_h",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_h",
+        "description": "“Hello?” You call out nervously, “Are you okay?” The body moves slowly and turns, as she turns you hear the clanking of metal shackles on the ground. “Who are you? You’re not the normal ones …” ",
+        "paths": [{
+            "targetid": "forest5_i",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_i",
+        "description": "“I’m just an adventurer.” You say. “Why are you here?” “A goblin as an adventurer? How ludacris, i’ve never heard of such a thing in my life.” “My name is Gweyr, I live in the elven forest to the north. I was captured by some Orcs and held hostage here in their cavern.” “Will you help me get out of here? I’m sure my village will reward you handsomely.” Help her? Don’t help her?",
+        "paths": [{
+            "targetid": "forest5_j",
+            "buttonText": ""
+            },
+            {
+                "targetid": "forest6",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_j",
+        "description": "You decide to help her, this is what it means to be an adventurer right? You glace around the room and look for anything that looks like keys. That would be too easy if it was just laying around. You spot a shovel, maybe you can use it to pry the bars open.",
+        "paths": [{
+            "targetid": "forest5_k",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_k",
+        "description": "You hear footsteps approaching, maybe it’s the orcs? They’re back for their prey. You quickly hide in between some barrels, taking along the shovel you found. You lay low as the steps come closer.",
+        "paths": [{
+            "targetid": "forest5_l",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_l",
+        "description": "An Orc come in to view as they past by you they turn towards the cell, backs against you. Gweyr yells at the orc, seemingly distracting them. “You pathetic orc, let me out!” she yells, the orc chuckle and laugh “filthy elf.” You crawl out from in between the barrels, and climb on top of one. Holding the shovel above you, you bring it crashing down on the orc head. He collapses like a rag doll.",
+        "paths": [{
+            "targetid": "forest5_m",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_m",
+        "description": "You hop down, and spot a glimmer near the Orc belt. Keys?You hurry towards them and grab a hold of the keys. You crawl over his now unconscious body towards the cell. You scramble and open the cell door. “How do we get out of here though?",
+        "paths": [{
+            "targetid": "forest5_n",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_n",
+        "description": "“Over here.” She says, “They have a secret entrance i’ve seen them use.” She goes over to the wall and presses in an indentation. A secret door swings open towards us. “Hurry lets go”. You scurry off behind her as she leads us down the stone hall way and towards the light of the forest. The sun blinding us as we enter the light.",
+        "paths": [{
+            "targetid": "forest5_o",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_o",
+        "description": "We can go to my village she says, I think I know the way. We’ll be safe there, but we need to leave this forest, its ruled by the overseers and overlords. “The overlords?” I ask. “Yes, the overlords watch the forest and sends the overseers to kill anything that they deem unworthy of being in their forest. Probably what was chasing me earlier. Well I have no choice I guess,  follow her through the forest towards the north. It’s getting dark now slowly, I start to feel like i’m being watched again.",
+        "paths": [{
+            "targetid": "forest5_p",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_p",
+        "description": "“Lets hurry!” You call out, as the river comes in to view. “When we cross this we’ll be in elf territory”. You feel a gust of wind and whisper in the air” You … do not … belong.” You run as fast as you can towards the river, crawling over rocks and seeing a broken log you run towards it. “The log! We can use it to cross.” You and Gweyr cross over, right as a shadow figure comes in to view. It stays at the edge of the forest, not daring to cross the river and it descends back in to the darkness.",
+        "paths": [{
+            "targetid": "forest5_q",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "forest5_q",
+        "description": "You continue on, and a village comes in to view. “Gweyr!” you hear a voice and you see Gweyr run towards the gates. She runs in to the arms of two elves and they embrace, sobbing and collapsing into each others arms. “Who is this with you?” “Why is there a goblin with you?” “Did they hurt you?” So many questions swirl around and you’re afraid as they raise their bows around you. “No! This is a friend, they saved me, I would not be here with out them. I actually don’t know you name. Can I know the name of my Hero?” “My name is __” ____ the hero. End story."
+       
+    },
+    {
+        "id": "river2",
+        "description": "You set off towards the river, there should be some people close by. It’s a water source after all and you’ll need to fill up your canteen. After a short hike you come upon the river, there doesn’t seem to be a bridge, but there a log across the river. Do you cross or follow the river down?",
+        "paths": [{
+            "targetid": "river2_a",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river2_b",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_a",
+        "description": "You decide to just follow the river down stream, there’s always towns at the end after all. You travel down the river walking and taking in he smells and views. Excited for what awaits you. You spot a small village from afar, a marker calls it Val Royeaux. Your next destination.",
+        "paths": [{
+            "targetid": "river3",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_b",
+        "description": "You try and cross the river using the log. It seems study enough and you walk over, the log abruptly ends. There’s a stone that you could use to walk the rest of the way over, or you think you can make the jump over. Do you jump over or use the stone?",
+        "paths": [{
+            "targetid": "river2_b1",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river2_c",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_b1",
+        "description": "You decide to jump over to the other side.  You walk back a few meters on the log and start off on a short run, pushing off you soar through the air and land on the bank of the river falling over in to the grass. Well that went better than expected. You continue to follow the river down stream, you seem to see a small village from a far. Maybe I should go there and get some information about some hidden treasure and some supplies.",
+        "paths": [{
+            "targetid": "river3",
+            "buttonText": ""
+        }]
+    },
+    {
+        "id": "river2_c",
+        "description": "You use the stone. It seems safer than jumping anyways, with my short legs I’m bound to fall in. You gently place your foot on the stone, making sure it’s securely on it before you lift the other foot off the log. As you lift your other foot a large rush of water comes and washes over you. Your foot slips and as you fall in your head hits that same rock. Knocking you unconscious in to the river, like a rag doll.",
+        "paths": [{
+            "targetid": "river2_d",
+            "buttonText": ""
+            }]
+    },
+   
+    {
+        "id": "river2_d",
+        "description": "As your body rushes down the river, a set of arms dip in and pull you out. Your body seems lifeless, as the mysterious figure sits you up. They slam a hand in to the your tiny back, causing you to cough water and gasp for air. You look up and see the face of a man, you hear a voice, but you can’t understand it. You try and speak, but nothing comes out and the vision of the world fades away from your sight.",
+        "paths": [{
+            "targetid": "river2_e",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_e",
+        "description": "The man, picks up your body and hoists you over his shoulder and makes his way towards the village. It is nightfall now and you don’t know how much time has passed. You wake up slowly, your head hurts, but it’s now been bandaged. You look around confused and afraid. What happened? Where am I? You look around and you’re in a tent. A small fire burns just outside and a man is sitting there. He wears a cloak, but you can tell he is a warrior. His armor glimmers in the light of the fire. “You’re awake.” “Where am?” You ask.",
+        "paths": [{
+            "targetid": "river2_f",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_f",
+        "description": "“Just outside of the village of mages Val Royeaux. You nearly died in that river before I fished you out of there. What are you doing out here anyways? I have never seen a goblin out this far away from the goblin village. Especially not one like you.” “What do you mean like me?” “Well, the only reason I even saw you in the river was because you were glowing. It was like a beacon of light was showing me where you were so i that I could come to you. Maybe it’s fate that we meet. My name is Alistair. What’s your name?” “My name is ___. I was going to the village, I left my home to go on an adventure of some sort.",
+        "paths": [{
+            "targetid": "river2_g",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_g",
+        "description": "“So it’s adventure that you’re looking for? I can help with that. I actually am looking for a new member for our party. We are a group of adventurers looking to take on cavern we’ve heard that holds great treasure in the mountains. You seem to have an affinity to magic, what do you think? Would you want to join us?  ",
+        "paths": [{
+            "targetid": "river2_h",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_h",
+        "description": "Sounds like it would be a good opportunity and this is what you’ve been looking for anyways.”Of course i’ll join, seem like it would be fun. Where do I sign up?” “Alistair lets out a laugh, “Great choice my friend! Come’ i’ll show you where our hideout is and introduce you to our team.” Alistair and I set out towards the village, taking a few back alleyways and he seemed to know where all the guards were to avoid them. We arrive at a steel door with a small window with a door. He raps on the door in quick succession. The small door opens and a set of eyes peer out. The window shuts again and the latches are heard being unlocked and the door swings open.",
+        "paths": [{
+            "targetid": "river2_i",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_i",
+        "description": "You enter the door way and it reveals a grand room with a roaring fire along the wall. A frail lady sits in a velvet arm chair by the window, a bear in the middle of the room and a young lady walks back towards them. “This is Ophelia our mage” Ophelia cheerfully waves at you. “Over here in the corner is Miria our cleric, and this is Gao our druid.” He points to the bear for the last name. I look puzzled as i’ve never heard of a bear with a name.”",
+        "paths": [{
+            "targetid": "river2_j",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_j",
+        "description": "“We’ll need to get you suited up with armor and some magic items. You might be able to use a few things we have around here, we had a gnome rogue who was about your size. I think Ophelia might have an extra staff on hand you can try and use. I am very curious to what kind of magic you are able to use.” Alistair rummages in a chest, pulling out random pieces of armor, potions and weapons of all sorts.",
+        "paths": [{
+            "targetid": "river2_k",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river2_k",
+        "description": "Alistair turns towards you and shoves some leather armor into you arms. Ophelia bounds over and hands you a small wand. “Here, you’ll need this.” She gives you a small oak colored wand, with a red gemstone at the top and some wording engraved into the handle.",
+        "paths": [{
+            "targetid": "river12",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river3",
+        "description": "As you move closer, to the village it begins to rain. That’s strange you think to yourself, it was sunny just a moment ago. Suddenly a fog envelops you. This is not normal at all. You begin to panic and increase your walk. You’ve lost sight of the river and your sense of direction has begun to give way. What do I do? Should I try and keep running? Stay in place?",
+        "paths": [{
+            "targetid": "river3_a",
+            "buttonText": ""
+            },
+            {
+            "targetid": "river3_b",
+            "buttonText": ""
+                }]
+    },
+    {
+        "id": "river3_a",
+        "description": "You begin to run, it seems endless though and after a while you begin to get exhausted. Panting you give in, and lay down in the grass. Maybe I can just rest for a bit … you close your eyes.",
+        "paths": [{
+            "targetid": "river3_a1",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river3_a1",
+        "description": "The fog dissipates, revealing cloaked figures that are surrounding your small body as you lay there unconscious and oblivious to the world.",
+        "paths": [{
+            "targetid": "river_a2",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river3_a2",
+        "description": "Chatter buzzes all around you. “It’s a goblin, why is it so far away from its nest?” “It doesn’t belong here.” “We must protect our village. We can send it back, or take care of it now.” “Leave it in the fog, it will take care of it” They walk away coming to a decision, you lay there and sleep for all eternity. You sleep forever, you journey ends."
+        
+    },
+    {
+        "id": "river3_b",
+        "description": "You stay in place, not knowing what to do. Trying to gather your surroundings, you close your eyes. You hear a small voice calling out, you concentrate on it and it becomes a bit clearer. The cold of the rain and fog suddenly develops into a warm embrace, like you’re being gently held by the sun.",
+        "paths": [{
+            "targetid": "river4",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river4",
+        "description": "The voices are clear now. “How did it get out?” “Does it have magic?” You open your eyes and find that you are surrounded by cloaked figures, dressed in all black. You fall back in surprise. “What’s going on?” You say nervously.",
+        "paths": [{
+            "targetid": "river5",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river5",
+        "description": "A figure steps closer to you breaking the circle. “You’re in our village of Val Royeaux. We have a magic barrier that protects us from intruders and those who do not have the gift. It seems though you’ve broken through and you have some strong magic abilities. We are impressed. Why have you come to our village?” “I’m just an adventurer, I was following the river and saw signs for a village. Then there was a rain and some fog and then a warm light.”",
+        "paths": [{
+            "targetid": "river6",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river6",
+        "description": "“That warm light is magic that flows through you” He says. “We’ve never seen a goblin with magic before, we feel as though you are the first of your kind. We welcome anyone with magic in to our village, please come with us.” Enter the village?",
+        "paths": [{
+            "targetid": "east1",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river7",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "east1",
+        "description": "You decline. “No thanks, I think I have seen enough, please let me be on my way. I don’t feel safe.” They allow you to pass, you gather yourself and your belonging and head past the village. “That was scary you think to yourself” Story to be continued … *East side of Map*"
+       
+    },
+    {
+        "id": "river7",
+        "description": "You accept their offer to enter the village. As you walk in you notice that everyone is so tall. Are they the humans I’ve heard so much about? You look in awe of the large buildings and the bustle of the town.",
+        "paths": [{
+            "targetid": "river8",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river8",
+        "description": "“My name is Cailan, I am what you would call the mayor of this town. We live here, learning all we can about magic and practice it here. You have the capabilities to do magic, that warm light you felt earlier was a protection spell. Something not easily done by someone with no experience.” “You’re welcome to stay and study with us, we would be glad to have you here.” Do you stay and study or decline?",
+        "paths": [{
+            "targetid": "river8_a",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river8_b",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "river8_a",
+        "description": "You decline. “Thank you, but I want to continue my journey and find myself. I will stay for a bit if that’s okay and replenish my supplies and get some rest. “Of course, you’re welcome to stay as long as you like!” “We are actually about to have a festival tonight if you’d like to stay, honoring the deity Nethyis,  the god of magic. Do you stay? Do You leave?",
+        "paths": [{
+            "targetid": "east2",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "east2",
+        "description": "You decline to stay.  I’m sorry, but I must be on my way. You leave the village before dark, continuing your journey East. Story to be continued *East side of Map*"
+        
+    },
+    {
+        "id": "river8_b",
+        "description": "You decide to stay. “I think I will stay for a bit and learn. I always wanted to know more about magic and wizards, strange things always happened around me as a child and maybe that’s why.” “Yes, of course, we can take you to the academy and you can learn from the best we have. We also have a festival tonight if you’d like to attend, it’s to honor the god of magic Nethyis.",
+        "paths": [{
+            "targetid": "river8_c",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river8_c",
+        "description": "Yes of course I’ll stay for the festival. “Very good!” he exclaimed. The festivities begin at dusk, please feel free to look around. You go towards a few merchants and peruse the items strewn on the tables. You feel as though all eyes are on you. You have only seen humans in this village, maybe they’re afraid? You feel out of place. You feel as though a set of eyes are staring at you intensely. It seems to be peering into your soul even. Where is it coming from? You glace around and find nothing out of place. Maybe i’m just imagining things?",
+        "paths": [{
+            "targetid": "river9",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river9",
+        "description": "You purchase a few pieces of fruit from a vendor. You begin to eat one when a glimmer on the ground catches your eye. It’s a coin of some sort. You pick it up and examine it, it seems to have an inscription along the edge along with a symbol of a book a bird. Do you take the coin?",
+        "paths": [{
+            "targetid": "river9_a",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river9_b",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "river9_b",
+        "description": "You pocket the coin hastily. Making sure that no one saw you, this could be valuable you think. Maybe it you can sell it later. You think nothing of it and walk along, it’s almost dusk now and you heard towards the river to the festival square."
+        
+    },
+    {
+        "id": "river9_a",
+        "description": "You put the coin back.  I was taught to never steal and I feel like this is stealing. Maybe I can find the owner though. You pick up the coin after all and begin to look around to ask someone about it. You flip the coin in the air as you walk. As you flip it a bright light encompasses it and it falls in to your palm. It feels heavier than it did before, and it seems to shine more than ever. I should probably ask around about this coin. You see a merchant sitting nearby, watching you. A man leaning against the wall and a little old lady sitting by the fountain. Who do you ask about the coin?",
+        "paths": [{
+            "targetid": "river10_a",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river10_b",
+                "buttonText": ""
+            },
+            {
+                "targetid": "river10_c",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "river10_a",
+        "description": "You ask the Merchant. “Excuse me sir, do you know anything about this coin? I found it and I’m looking for the owner.” The merchant peers down at your palm cautiously “That’s not my business” and quickly turns away from you. What a strange reaction …",
+        "paths": [{
+            "targetid": "river10_b",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river10_b",
+        "description": "You ask the man on the wall. “Excuse me, but I found this on the ground and I am looking for the owner. Do you know anything about it? “ The man glances at the coin, and smiles. “Yeah of course, I know who that belongs to. Let me show you where, follow me.” He turns to face a dark alleyway and you begin to follow. His pace is fast and he stops suddenly. “Here we are!” Out from the shadows a few men come out and approach you. “You should have left when you had the chance to goblin.” It’s like you never came to the village at all. You’re dead."
+      
+    },
+    {
+        "id": "river10c",
+        "description": "You ask the old lady. “Excuse me, do you know anything about this coin?” “Oh … come with me dear.” She beckons you to come with her away from the crowds. She moves seemingly fast for an old lady, her movements moved with purpose, not wasting any time. We end up at a steel door, with a small latch window in the middle. She raps on the door in quick succession. The small window in the door opens, a set of eyes peer out. “Show me”. I looked puzzled for a second and remembered why I followed the old lady for. I reached in to my pocket and pull out the golden coin and put it up to the window. The window shuts and noises of metal sliders and chains follow. The door swings open and reveals a dark room.",
+        "paths": [{
+            "targetid": "river10_d",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river10_d",
+        "description": "As you walk closer in, a fire reveals a grand room.  A large bear sits in the middle of the floor, in front of the fire. A small frail looking woman sits in a velvet arm chair and a gruff looking man dressed in armor stands before you. You feel intimidated, scared and nervous. What’s going here? Suddenly next to you the old woman has disappeared and replacing her is a beautiful woman with long blonde hair. You gasp at the change and step back hitting the wall behind you. “Oh don’t be so dramatic” she laughs. “Welcome friend, don’t be afraid.” The man in the armor reaches a hand out to you. “What is this place? Who are you all?” So many questions swirl around your head.",
+        "paths": [{
+            "targetid": "river11",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river11",
+        "description": "“We’re a group of adventurers, our base is here in this town. The coin you found on the ground can not be seen by just anyone, it is imbued with magical properties so that only the strong are able to see and the chosen are able to grasp it.” “We’ve been waiting for a new member of our team to come to us, before we set out on the grand dungeon.” My name is Alistair I’m a warrior, this is Ophelia our mage” Ophelia cheerfully waves at you, she looks so different you can’t seem to get over it. “Over here in the corner is Miria our cleric, and this is Gao our druid.” He points to the bear for the last name. I look puzzled as i’ve never heard of a bear with a name. “You have strong magic abilities and we’d love for you to join our rag tag team, what do you think?”",
+        "paths": [{
+            "targetid": "river11_a",
+            "buttonText": ""
+            },
+            {
+                "targetid": "river11_b",
+                "buttonText": ""
+            }]
+    },
+    {
+        "id": "river11_b",
+        "description": "Don’t join them. This is crazy you think to yourself. “I think I’m okay alone, I don’t even know you people and it’s all so sudden."
+       
+    },
+    {
+        "id": "river11_a",
+        "description": "Join them. Whats the harm in joining them? I mean I was looking for an adventure anyways so what better way then to join a random group of strangers that might murder me in my sleep.",
+        "paths": [{
+            "targetid": "river12",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river12",
+        "description": "“I know it is sudden, but we set out tomorrow from this town towards the mountains of Latimere. Its said to hold great treasures and we’ve been waiting for another person to join our party too tackle that adventure. ",
+        "paths": [{
+            "targetid": "river13",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river13",
+        "description": "Your party sets out at first light, leaving the comforts of the village. You set off towards the mountains and walk in to the night. Along the way you see many different sights you’ve never seen before. Different animals, and tree’s and a few monsters as well. You’ve been honing your magic slowly through out the day. You feel it flowing through your veins, it’s warm and it feels pretty nice. Ophelia has also been mentoring you and teaching you a few things. You begin to feel more confident in your abilities.",
+        "paths": [{
+            "targetid": "river14",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river14",
+        "description": "Night has fallen and your party sets up camp, we’re about halfway up the mountain now. The sun is setting and you gaze out towards the valley. It’s a beautiful sight and it seems endless. You’re glad you decided to leave the village, it feels like you were ment to do this all along. This is what you were born for, not to stay in a small village learning to farm and trade. Tomorrow we’ll reach the cavern we’ve heard about and we can explore it and its many secrets. You grow with excitement and glee. It’s gonna be a good day.",
+        "paths": [{
+            "targetid": "river15",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river15",
+        "description": "In the morning you hike to the top, the cavern comes in to view. It seems ominous and much larger than you ever imagined. “Is this it?” You ask Alistair. “Aye, it’s greater than we all ever though, it’s said to hold great treasure in it guarded by a dragon.” “Wait .. dragon? You never said anything about a dragon!” “ Well, you never asked.” Dragons are supposed to be extinct, there’s no way theres one in there. Its not possible. You begin to panic and pace back and forth. Sweat bead forming on your brow. What did I get myself in to, should I go? I can’t make it back down the mountain alone. I have no choice, I need to go in. You nervously walk behind the group, last in line. You walk in following the light of the torch in Alistair’s hand and the light from your wands. As you walk in you hear a voice whisper to you in the air. “You’re not like them”. “What was that?” You say. “What? I didn’t hear anything.” Ophelia says. You look around, you see a skeleton of a human in the corner. Was that a ghost? What was that? Am I going crazy? You continue in the cavern. The group suddenly stops, and Alistair has his hand up. A wave of silence follows and a small rumbling can be heard a bit further in. A glimmer of light shines in the back on the cavern, illuminating a large red gem. That must be the treasure that they are looking for you think. You don’t really care for it though, you feel like you’re disturbing something ancient.",
+        "paths": [{
+            "targetid": "river16",
+            "buttonText": ""
+            }]
+    },
+    {
+        "id": "river16",
+        "description": "Your party walks towards the inner chambers of the dungeon.”Our prize is there, the sacred jewel of the land. It’ll fetch a nice price won’t it.” Alistair says with glee. You look around nervously, “I feel like we shouldn’t be here.” you exclaim. You don’t even care about money, you’re just glad you could see and experience this place. You turn to leave, and you see another glimmer of light pass by your face. “Come with me” it calls to you “You’ll be safe with us.” It floats down a hallway that you didn’t see earlier. It seems like no one else saw it either. Do you go with the mysterious light or stay with the party?",
+        "paths": [{
+            "targetid": "ending1",
+            "buttonText": ""
+            },
+            {
+                "targetid": "ending2",
+                "buttonText": ""
+                }]
+    },
+    {
+        "id": "ending1",
+        "description": "You follow the mysterious light, you’ve been feeling kind of strange since you entered the cavern. Like you shouldn’t be here, but also that you’re right where you belong. The hallway winds up around the cavern area you were just at. You look between one of the cracks down on to your former party. You see fire coming from the ceiling. “Is … that a dragon?!” You shout, not meaning to, but you’re so shocked you call out. “He’s our guardian, he protects the life jewel, which is the beating heart of the mountain. Without it, we would not exist.” “Who are you?” “My name is Faye, i’m a fayeth who lives here. I sensed that you have a mysterious power, a power to protect and heal. You don’t seem to have any ill intent which is why I called out to you. Unlike those other ones down there.” You suddenly see a bright light and your former party is engulfed in flames. “You’ll be safe here at the tree of life, we’re always looking for more people to come join us. Only the chosen get to come, the ones we feel has the most potential to learn and grow. We watch over the world, and protect the ones that need protecting.” You follow her up the winding hallway up. It opens up and you are blinded by a bright light. It’s warmth engulfs you and you step out on to soft plush grass. As you begin to get your vision back, you see a large tree in the middle of the opening to the sky. There’s people talking amongst each other, children of different races playing and rushing around. Fayeths, dwarves and even a few goblins actually. “What is this?” “It’s your new home if you choose it to be, we welcome everyone here” You feel it, the ground, the smell of the air, and the excitement buzzing all around you. “I think .. i’ll stay a while.”"
+        
+    },
+    {
+        "id": "ending2",
+        "description": "You decide to stay with the party and go after the jewel. You walk towards it, Alistair leading. You hear a loud rumble again, and a gush of wind comes and pushes you off your feet. Suddenly there’s light and heat. “FIRE!” Alistair yells, shielding himself, the party forms a line behind him. “What is it?” You cast a light globe from your wand, it glows up towards the ceiling of the cavern. You watch as it floats up and it suddenly stops as it hits the top. It illuminates a bright red body and a set of eyes are peering down at your party A dragon. A legendary dragon. He flies down towards your party, angered. He shoots another fireball at your party. Ophelia casts a protection spell, the druid casts a regeneration to deal with the heat, and Alistair tries to hold it back. It fails and he falls over overwhelmed by the sheer force, slowly the protection field breaks, the regen wears down. One by one your seemingly unstoppable party falls. Till the last one standing is you. You stare at the impending doom coming towards you, this is not the adventure I thought it would be."
+       
+    }
+
+
+   ]
