@@ -1,6 +1,6 @@
 // bg
 const village = require("./bg/village.jpg");
-const entrance = require("./bg/entrance.jpeg");
+// const entrance = require("./bg/entrance.jpeg");
 // bgm
 const clouds = require("./bgm/clouds.mp3");
 // speakers
